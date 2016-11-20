@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>HtmlContext/html/login.html</file>
+        <file>HtmlContext/js/jquery-3.1.1.min.js</file>
+        <file>HtmlContext/js/qwebchannel.js</file>
+        <file>HtmlContext/css/bootstrap.min.css</file>
+        <file>HtmlContext/image/Splash.jpg</file>
+        <file>HtmlContext/css/StyleLogin.css</file>
+        <file>HtmlContext/image/bg_dotted.gif</file>
+        <file>HtmlContext/js/jsLogin.js</file>
+        <file>HtmlContext/html/MainWindow.html</file>
+        <file>HtmlContext/css/MainStyle.css</file>
+        <file>HtmlContext/js/jsMainWindow.js</file>
+        <file>HtmlContext/image/bannerback.png</file>
+        <file>HtmlContext/image/menu-icon-white.png</file>
+        <file>HtmlContext/image/parkingMenu.png</file>
+    </qresource>
+</RCC>

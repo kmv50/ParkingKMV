@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2016, 07:17:13 AM
+    Author     : kevin
+*/
+
+body{
+    padding: 0px;
+    top: 0px;
+    margin: 0px;   
+    background-image: url(qrc:///HtmlContext/image/bg_dotted.gif);
+}
+
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background:#337ab7 url(qrc:///HtmlContext/image/bannerback.png) no-repeat right ;
+    background-position-y: -130px;
+    background-position-x: 115%;
+    border-bottom: #269abc solid 1px;
+    color: #fff;
+    z-index: 40;
+}
+
+.MainBarIcons{
+    height: 35px;
+    padding: 5px;
+    margin-top: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+}
+
+#lb_menuMainBar{
+    display: none;
+    margin-top: 10px;
+}
+
+#Main_PanelMenu{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    background-color: #337ab7;
+    top: 0px;
+    left: -250px;
+    z-index: 100;
+    transition:0.8s;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+}
+
+#Main_PanelMenu > div {
+    margin: 5px;
+    padding: 2px;
+    background-color: #fff;
+    border: #e1e1e8 solid 1px;
+    border-radius: 3px;
+    
+}
+
+#Main_PanelMenu > img {
+    width: 145px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+#Main_PanelMenu > img:hover{
+    transform: scale(1.1);
+}
+
+.BlockUiMainContenedor{
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(102,102,102,0.6);
+    position: absolute;
+    display: none;
+    top: 0;
+}
+
+.MoveWindowsRight{
+    transform: translate(250px,0);
+    -webkit-transform: translate(250px,0); /** Safari & Chrome **/
+    -o-transform: translate(250px,0); /** Opera **/
+    -moz-transform: translate(250px,0); /** Firefox **/
+}
+
+#Main_WorkSpace{
+    margin-top: 100px;
+     -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+}

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Login">
+        <file>HtmlContext/HTML5Application/public_html/login.html</file>
+    </qresource>
+    <qresource prefix="/js">
+        <file>HtmlContext/HTML5Application/public_html/js/jquery-3.1.1.min.js</file>
+        <file>HtmlContext/HTML5Application/public_html/js/qwebchannel.js</file>
+    </qresource>
+    <qresource prefix="/css">
+        <file>HtmlContext/HTML5Application/public_html/css/bootstrap.min.css</file>
+    </qresource>
+</RCC>
